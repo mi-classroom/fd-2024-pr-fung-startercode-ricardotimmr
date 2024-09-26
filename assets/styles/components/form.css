@@ -3,3 +3,63 @@
 
 /* Form
 ############################################################################ */
+
+.thema-vorschlagen {
+    color: var(--color-dark);
+    margin-top: var(--size-l);
+    
+    .form-group {
+      position: relative;
+      margin-bottom: var(--size-l); /* Add space between form elements */
+      border-bottom: solid 2px var(--color-green);
+    }
+  
+    /* Input styles */
+    .form-control {
+      width: 100%;
+      padding: var(--size-xs);
+      border: none;
+      outline: none;
+      background-color: transparent;
+      color: var(--color-dark); /* Ensure the input text is black */
+      transition: background-color 0.3s ease; /* Smooth transition for background color */
+      
+      &:focus {
+        background-color: #f5f5f5; /* Light gray background on focus */
+      }
+  
+      &:focus + label,
+      &:not(:placeholder-shown) + label {
+        display: none;
+        font-size: 0.75rem;
+        color: var(--color-dark); /* Change label color */
+      }
+    }
+  
+    label {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      color: var(--color-hellgrau);
+      transform: translateY(-50%);
+      transition: all 0.3s ease;
+    }
+  
+    /* Submit button styling */
+    .submit-button {
+        padding: var(--size-s) var(--size-m);
+        border: none;
+        border-radius: 5px;
+        margin-top: var(--size-m);
+        background-color: var(--decoration-color);
+        color: var(--color-lightest);
+        cursor: pointer;
+        font-size: 15px;
+        transition: background-color 0.3s ease; /* Smooth transition for button */
+    }
+  
+    .submit-button:hover {
+      background-color: var(--color-green); /* Darken the button on hover */
+    }
+  }
+  
