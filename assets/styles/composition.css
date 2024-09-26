@@ -71,6 +71,46 @@
 
 }
 
+.has-no-margin-top {
+  margin-top: 0;
+}
+
+/* Collapsible content is hidden by default */
+.collapsible {
+  display: none;
+  padding-left: 1rem;
+}
+
+.toggle-arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid pink; /* Pink color for the arrow */
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+/* Rotate the arrow when section is expanded */
+.collapsible.open + .toggle-arrow {
+  transform: rotate(90deg);
+}
+
+/* When a section is expanded, rotate the arrow */
+h2.active .toggle-arrow {
+  transform: rotate(90deg); /* Rotate right */
+}
+
+/* Basic styling adjustments for h2 */
+h2 {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: var(--size-m);
+}
+
 .section.with-bg-gray + .section.with-bg-dark{
   margin-top: 0;
 }
