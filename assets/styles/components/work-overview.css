@@ -17,6 +17,12 @@
         padding: 20px;
       }
 
+      a {
+        text-decoration: none;
+        color: var(--color-darkblue); /* Adjust this for title color */
+        border-bottom: none
+      };
+
       .work-image {
         width: 150px;
         height: auto;
