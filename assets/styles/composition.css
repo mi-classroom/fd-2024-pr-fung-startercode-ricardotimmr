@@ -67,7 +67,22 @@
     * { color: var(--color-lightest) }
   }
 
+  /* Submit button styling */
+  .submit-button {
+    padding: var(--size-s) var(--size-m);
+    border: none;
+    border-radius: 5px;
+    margin-top: var(--size-m);
+    background-color: var(--decoration-color);
+    color: var(--color-lightest);
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease; /* Smooth transition for button */
+}
 
+.submit-button:hover {
+  background-color: var(--color-green); /* Darken the button on hover */
+}
 
 }
 
