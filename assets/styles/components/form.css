@@ -5,13 +5,13 @@
 ############################################################################ */
 
 .thema-vorschlagen {
-    color: var(--color-dark);
     margin-top: var(--size-l);
+    color: var(--color-dark);
     
     .form-group {
       position: relative;
-      margin-bottom: var(--size-l); /* Add space between form elements */
       border-bottom: solid 2px var(--color-green);
+      margin-bottom: var(--size-l); /* Add space between form elements */
     }
   
     /* Input styles */
@@ -19,9 +19,9 @@
       width: 100%;
       padding: var(--size-xs);
       border: none;
-      outline: none;
       background-color: transparent;
       color: var(--color-dark); /* Ensure the input text is black */
+      outline: none;
       transition: background-color 0.3s ease; /* Smooth transition for background color */
       
       &:focus {
@@ -31,8 +31,8 @@
       &:focus + label,
       &:not(:placeholder-shown) + label {
         display: none;
-        font-size: 0.75rem;
         color: var(--color-dark); /* Change label color */
+        font-size: 0.75rem;
       }
     }
   

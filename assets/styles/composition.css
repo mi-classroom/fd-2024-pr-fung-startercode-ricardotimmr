@@ -103,8 +103,8 @@
   border-top: 6px solid transparent;
   border-bottom: 6px solid transparent;
   border-left: 6px solid pink; /* Pink color for the arrow */
-  cursor: pointer;
   margin-right: 0.5rem;
+  cursor: pointer;
   transition: transform 0.3s ease;
 }
 
@@ -120,14 +120,14 @@ h2.active .toggle-arrow {
 
 /* Basic styling adjustments for h2 */
 h2 {
-  cursor: pointer;
   display: flex;
   align-items: center;
+  cursor: pointer;
 
   i {
     margin-right: 10px;
-    font-size: 1.2em;
     color: var(--color-dark);
+    font-size: 1.2em;
   }
 }
 

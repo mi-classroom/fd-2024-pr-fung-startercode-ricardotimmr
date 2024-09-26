@@ -2,25 +2,25 @@
 ############################################################################ */
 
 .work-overview {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
     gap: 20px; /* Spacing between cards */
+    list-style: none;
 
     .work-card {
         display: flex;
         align-items: center;
-        background-color: #fff; /* White background */
-        border-bottom: 4px solid var(--decoration-color); /* Decoration color for border bottom */
         padding: 20px;
+        border-bottom: 4px solid var(--decoration-color); /* Decoration color for border bottom */
+        background-color: #fff; /* White background */
       }
 
       a {
-        text-decoration: none;
+        border-bottom: none;
         color: var(--color-darkblue); /* Adjust this for title color */
-        border-bottom: none
+        text-decoration: none
       };
 
       .work-image {
@@ -35,9 +35,9 @@
       }
 
       .work-title {
-        font-size: 1.5rem;
         margin: 0;
         color: var(--color-darkblue); /* Adjust this for title color */
+        font-size: 1.5rem;
         font-size: var(--xs);
       }
 
