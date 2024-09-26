@@ -21,3 +21,7 @@ npm run dev
 /compiled-assets/    enthält die kompiulierten Assets, z.B. Styles. Hier keine Änderungen vornehmen.
 ```
 
+## Name
+
+Ricardo Timm
+11142270
