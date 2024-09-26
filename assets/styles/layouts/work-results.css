@@ -79,6 +79,21 @@
             font-weight: var(--fw-medium);
         }
 
-        
+
     }
+
+    .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1px; /* Space between images */
+        justify-content: flex-start;
+    }
+    
+    .gallery-image {
+        width: 200px; /* Adjust the size of images */
+        height: auto;
+        object-fit: cover;
+        border: 1px solid var(--color-lightest);
+    }
+    
 }
