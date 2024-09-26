@@ -108,6 +108,12 @@ h2 {
   cursor: pointer;
   display: flex;
   align-items: center;
+
+  i {
+    margin-right: 10px;
+    font-size: 1.2em;
+    color: var(--color-dark);
+  }
 }
 
 .section.with-bg-gray + .section.with-bg-dark{
